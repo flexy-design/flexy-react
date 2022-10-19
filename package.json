@@ -1,0 +1,39 @@
+{
+  "name": "flexy-react",
+  "version": "0.0.1",
+  "description": "Flexy react common module",
+  "type": "module",
+  "source": "src/flexy.tsx",
+  "main": "./dist/flexy.cjs",
+  "module": "./dist/flexy.module.js",
+  "unpkg": "./dist/flexy.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "microbundle": "^0.15.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "exports": {
+    "require": "./dist/flexy.cjs",
+    "default": "./dist/flexy.modern.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flexy-design/flexy-react.git"
+  },
+  "keywords": [],
+  "author": "flexy-design",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flexy-design/flexy-react/issues"
+  },
+  "homepage": "https://github.com/flexy-design/flexy-react#readme"
+}
