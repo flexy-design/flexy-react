@@ -10,12 +10,14 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "release": "release-it"
   },
   "devDependencies": {
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "microbundle": "^0.15.1"
+    "microbundle": "^0.15.1",
+    "release-it": "^15.5.0"
   },
   "dependencies": {
     "react": "^17.0.2",
