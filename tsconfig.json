@@ -16,7 +16,7 @@
       "dom"
     ],
     "skipLibCheck": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "jsxFactory": "",
     "jsxFragmentFactory": ""
   }
