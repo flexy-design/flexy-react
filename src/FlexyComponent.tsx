@@ -657,7 +657,7 @@ export const Floating = (props: IFloatingProps) => {
   return (
     <>
       {props.children}
-      <style jsx global>
+      <style>
         {`
           ${isFloating &&
           props.position === "bottom" &&
@@ -759,7 +759,7 @@ export const Fullsize = (props: IFullsizeProps) => {
   return (
     <>
       {props.children}
-      <style jsx global>
+      <style>
         {`
           .${uniqueClassName} {
             ${styles}

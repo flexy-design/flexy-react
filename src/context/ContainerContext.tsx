@@ -96,7 +96,7 @@ const ContainerProvider = (props: IContextProps) => {
         </div>
       </ContainerContext.Provider>
 
-      <style jsx global={true}>
+      <style>
         {`
           ${(typeof backgroundColor === "string" &&
             fitBackgroundColor !== null &&
