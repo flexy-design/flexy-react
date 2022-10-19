@@ -1,6 +1,6 @@
 {
   "name": "@flexy-design/react",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Flexy react common module",
   "source": "src/flexy.tsx",
   "main": "./dist/flexy.cjs",
