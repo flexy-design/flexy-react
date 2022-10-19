@@ -12,15 +12,17 @@
     "build": "microbundle",
     "dev": "microbundle watch",
     "clean": "rm -rf dist",
-    "release": "release-it"
+    "release": "npm run build && release-it"
   },
   "devDependencies": {
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "microbundle": "^0.15.1",
-    "release-it": "^15.5.0"
+    "release-it": "^15.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
