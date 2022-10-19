@@ -9,8 +9,8 @@
   "module": "./dist/flexy.module.js",
   "unpkg": "./dist/flexy.umd.js",
   "scripts": {
-    "build": "microbundle --jsx React.createElement",
-    "dev": "microbundle watch --jsx React.createElement",
+    "build": "microbundle --jsx preserve",
+    "dev": "microbundle watch --jsx preserve",
     "clean": "rm -rf dist",
     "release": "release-it"
   },
