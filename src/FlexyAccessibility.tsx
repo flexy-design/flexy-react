@@ -1,3 +1,4 @@
+import React from "react";
 import { AriaRole } from "react";
 
 export const WA = (props: { children?: React.ReactNode }) => {
