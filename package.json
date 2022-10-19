@@ -5,6 +5,7 @@
   "type": "module",
   "source": "src/flexy.tsx",
   "main": "./dist/flexy.cjs",
+  "types": "./dist/flexy.d.ts",
   "module": "./dist/flexy.module.js",
   "unpkg": "./dist/flexy.umd.js",
   "scripts": {
